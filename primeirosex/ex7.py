@@ -1,0 +1,8 @@
+n1 = input('Qual seu nome?')
+n2 = input('Qual sua idade?')
+n3 = "Seja bem-vindo {}! Então você tem {} anos.".format(n1, n2)
+print(n3)
+print('É numero?', n2.isnumeric())
+print('É letra?', n1.isalpha())
+print('É escrita?', n3.isprintable())
+print('É politizada?', n1.istitle())

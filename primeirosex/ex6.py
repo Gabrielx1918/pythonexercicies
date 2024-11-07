@@ -1,0 +1,6 @@
+one = input('O valor referido a seguir é: ')
+print(one.isalpha())
+print(one.isnumeric())
+print(one.isupper())
+print(one.isdecimal())
+print(one.isprintable())

@@ -1,0 +1,66 @@
+Funções e Constantes do Módulo math
+
+Funções Aritméticas
+math.ceil(x): Arredonda x para cima.
+math.floor(x): Arredonda x para baixo.
+math.fabs(x): Valor absoluto de x.
+math.factorial(x): Fatorial de x (inteiro não negativo).
+math.fsum(iterable): Soma de pontos flutuantes com maior precisão.
+math.trunc(x): Trunca x (remove a parte decimal).
+
+Funções Exponenciais e Logarítmicas
+math.exp(x): e elevado à potência de x.
+math.log(x, [base]): Logaritmo de x na base especificada.
+math.log10(x): Logaritmo de x na base 10.
+math.log2(x): Logaritmo de x na base 2.
+math.pow(x, y): x elevado à potência de y.
+math.sqrt(x): Raiz quadrada de x.
+math.cbrt(x): Raiz cúbica de x.
+
+Funções Trigonométricas
+math.sin(x): Seno de x (em radianos).
+math.cos(x): Cosseno de x (em radianos).
+math.tan(x): Tangente de x (em radianos).
+math.asin(x): Arco seno de x (resultado em radianos).
+math.acos(x): Arco cosseno de x (resultado em radianos).
+math.atan(x): Arco tangente de x (resultado em radianos).
+math.atan2(y, x): Arco tangente de y/x, levando em conta o quadrante.
+math.degrees(x): Converte radianos para graus.
+math.radians(x): Converte graus para radianos.
+
+Funções de Distância
+math.hypot(x, y): Retorna a hipotenusa de um triângulo retângulo cujos catetos têm comprimentos x e y.
+math.dist(p, q): Retorna a distância entre os pontos p e q (em um espaço n-dimensional).
+Constantes
+math.pi: Valor de π (pi).
+math.e: Base dos logaritmos naturais (e).
+
+Funções Hiperbólicas
+math.sinh(x): Seno hiperbólico de x.
+math.cosh(x): Cosseno hiperbólico de x.
+math.tanh(x): Tangente hiperbólica de x.
+math.asinh(x): Arco seno hiperbólico de x.
+math.acosh(x): Arco cosseno hiperbólico de x.
+math.atanh(x): Arco tangente hiperbólica de x.
+
+Funções de Combinatória
+math.comb(n, k): Combinações de n elementos tomados k a k.
+math.perm(n, k): Permutações de n elementos tomados k a k.
+math.gcd(x, y): Maior divisor comum de x e y.
+
+Funções de Verificação
+math.isclose(a, b, [rel_tol, abs_tol]): Verifica se a e b são aproximadamente iguais.
+math.isfinite(x): Verifica se x é um número finito.
+math.isinf(x): Verifica se x é infinito.
+math.isnan(x): Verifica se x é NaN (não é um número).
+
+Funções de Módulo e Resto
+math.remainder(x, y): Resto de x dividido por y (forma correta de arredondar o resultado).
+math.fmod(x, y): Resto da divisão de x por y.
+math.modf(x): Retorna a parte inteira e a parte fracionária de x.
+
+Outras Funções
+math.ldexp(x, i): Retorna x * (2**i) (equivalente a x * 2 elevado à potência de i).
+math.frexp(x): Retorna a mantissa e o expoente da representação de ponto flutuante de x.
+math.nextafter(x, y): Retorna o próximo float após x em direção a y.
+math.ulp(x): Retorna o tamanho da unidade de última posição para x.
